@@ -43,10 +43,11 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# Generated files
-*.g.dart
-*.freezed.dart
-*.gr.dart
+# Generated files (excluding manually created ones for now)
+# Note: Uncomment these after running build_runner
+# *.g.dart
+# *.freezed.dart
+# *.gr.dart
 
 # Config files with sensitive data
 lib/core/config/app_config.dart
